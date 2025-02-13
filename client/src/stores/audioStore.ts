@@ -7,10 +7,11 @@ export const useAudioStore = defineStore('audio', {
     audioChunks: [],
   }),
   actions: {
-    async startRecording(workspaceId: string, stepId: string) {
-     
+    async startRecording(): Promise<void> {
+    
     },
-    async stopRecording(workspaceId: string, stepId: string) {
+
+    async stopRecording(): Promise<void> {
       
     },
   },
